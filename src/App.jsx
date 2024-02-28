@@ -1,11 +1,15 @@
+import { Outlet } from 'react-router-dom'
 import './App.css'
+
 
 function App() {
   
 
   return (
     <>
-      <h1>Helloo</h1>
+    <nav>Home</nav>
+      <Outlet/>
+      
     </>
   )
 }
